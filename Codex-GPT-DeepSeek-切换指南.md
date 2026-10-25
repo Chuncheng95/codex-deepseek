@@ -7,16 +7,19 @@
 
 ## 准备
 
+- macOS 13+ 或 Windows 10/11。
 - Codex 桌面版已经安装，并用 ChatGPT 账号登录过一次（切回 GPT 要用这个登录态）。
-- 一个 DeepSeek API Key。
+- 一个 DeepSeek API Key，一行，不加引号。
+- 能访问 `api.deepseek.com`。
+- 不需要 Python、Node.js 或额外运行时：macOS 用 App/系统脚本，Windows 用自带的 PowerShell 5.1。
 
 ## 方式一：双击切换（桌面版）
 
-程序包在 `程序包/` 下，分 `mac/` 和 `windows/`。包本身不带 Key，第一次用要先填自己的。
+程序包在本仓库根目录，分 `mac/` 和 `windows/`。包本身不带 Key，第一次用要先填自己的。
 
 ### macOS
 
-1. 双击 `mac/Codex Switch.app`。如果系统提示无法验证开发者，右键点它 → 打开。
+1. 双击 `mac/方案A-一键App/Codex Switch.app`。如果系统提示无法验证开发者，右键点它 → 打开。
 2. 第一次打开会要求填入自己的 DeepSeek Key，粘贴后点“保存”。
 3. 点“切到 DeepSeek”，等提示完成。
 4. `⌘Q` 完全退出 Codex，再重新打开，在模型列表里选 **DeepSeek-Flash**。
